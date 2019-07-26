@@ -18,5 +18,7 @@ int main()
         }
     }
     fprintf(out,"%d",count);
+    fclose(in);
+    fclose(out);
     return 0;
 }
