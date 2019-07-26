@@ -17,7 +17,7 @@ int main()
             count++;
         }
     }
-    fprintf(out,"%d",count);
+    fprintf(out,"%d\n",count);
     fclose(in);
     fclose(out);
     return 0;
