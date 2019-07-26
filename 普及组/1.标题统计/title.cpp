@@ -12,7 +12,7 @@ int main()
     fscanf(in,"%s",&s);
     for(int i=1;i<=s.length();i++)
     {
-        if((s[i]>=48&&s[i]<=57)||(s[i]>=65&&s[i]<=90)||(s[i]>=97&&s[i]<=122))
+        if((s[i]>='0'&&s[i]<='9')||(s[i]>='A'&&s[i]<='Z')||(s[i]>='a'&&s[i]<='z'))
         {
             count++;
         }
